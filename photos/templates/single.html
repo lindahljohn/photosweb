@@ -1,0 +1,64 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+<!DOCTYPE html>
+<html>     
+<body>
+
+<h1>Photo Details</h1>
+
+<img src="../static/testphoto.jpg" style="width:400px;height:px;">
+
+<p>Object Name: {{ iptc_data.object_name }}</p>
+<p>Edit Status: {{ iptc_data.edit_status }}</p>
+<p>Priority: {{ iptc_data.priority }}</p>
+<p>Category: {{ iptc_data.category }}</p>
+<p>Supplemental Category: {{ iptc_data.supplemental_category }}</p>
+<p>--Keywords: {{ iptc_data.keywords }}</p>
+<p>Instructions: {{ iptc_data.instructions }}</p>
+<p>Date Created: {{ iptc_data.date_created }}</p>
+<p>Time Created: {{ iptc_data.time_created }}</p>
+<p>By-line: {{ iptc_data.by_line }}</p>
+<p>By-line Title: {{ iptc_data.by_line_title }}</p>
+<p>--Caption: {{ iptc_data.caption }}</p>
+<p>Credit: {{ iptc_data.credit }}</p>
+<p>Source: {{ iptc_data.source }}</p>
+<p>City: {{ iptc_data.city }}</p>
+<p>State: {{ iptc_data.state }}</p>
+<p>Country: {{ iptc_data.country }}</p>
+<p>Country Code: {{ iptc_data.country_code }}</p>
+<p>Original Transmission Reference: {{ iptc_data.original_transmission_reference }}</p>
+<p>Headline: {{ iptc_data.headline }}</p>
+<p>Special Instructions: {{ iptc_data.special_instructions }}</p>
+<p>Created Date: {{ iptc_data.created_date }}</p>
+<p>Created Time: {{ iptc_data.created_time }}</p>
+<p>Originating Program: {{ iptc_data.originating_program }}</p>
+<p>Program Version: {{ iptc_data.program_version }}</p>
+<p>Object Cycle: {{ iptc_data.object_cycle }}</p>
+<p>Creator: {{ iptc_data.creator }}</p>
+<p>City Created: {{ iptc_data.city_created }}</p>
+<p>Province State Created: {{ iptc_data.province_state_created }}</p>
+<p>Country Name: {{ iptc_data.country_name }}</p>
+<p>Country Code: {{ iptc_data.country_code }}</p>
+<p>Reference Service: {{ iptc_data.reference_service }}</p>
+<p>Reference Date: {{ iptc_data.reference_date }}</p>
+<p>Reference Number: {{ iptc_data.reference_number }}</p>
+<p>Date Created: {{ iptc_data.date_created }}</p>
+<p>Time Created: {{ iptc_data.time_created }}</p>
+<p>Digitization Date: {{ iptc_data.digitization_date }}</p>
+<p>Digitization Time: {{ iptc_data.digitization_time }}</p>
+<p>Program: {{ iptc_data.program }}</p>
+<p>ICC Profile: {{ iptc_data.icc_profile }}</p>
+<p>Language Identifier: {{ iptc_data.language_identifier }}</p>
+<p>Custom Field 1: {{ iptc_data.custom_field_1 }}</p>
+<p>Custom Field 2: {{ iptc_data.custom_field_2 }}</p>
+<p>Custom Field 3: {{ iptc_data.custom_field_3 }}</p>
+<p>Custom Field 4: {{ iptc_data.custom_field_4 }}</p>
+<p>Custom Field 5: {{ iptc_data.custom_field_5 }}</p>
+<p>Custom Field 6: {{ iptc_data.custom_field_6 }}</p>
+<p>Custom Field 7: {{ iptc_data.custom_field_7 }}</p>
+<p>Custom Field 8: {{ iptc_data.custom_field_8 }}</p>
+<p>Custom Field 9: {{ iptc_data.custom_field_9 }}</p>
+<p>Custom Field 10: {{ iptc_data.custom_field_10 }}</p>
+
+</body>
+</html>
